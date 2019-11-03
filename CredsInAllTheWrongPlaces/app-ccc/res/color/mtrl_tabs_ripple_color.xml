@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_selected="true" n1:state_pressed="true" n1:color="?colorAccent" n1:alpha="0.08"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_focused="true" n2:state_selected="true" n2:color="?colorAccent" n2:alpha="0.16" n2:state_hovered="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_focused="true" n3:state_selected="true" n3:color="?colorAccent" n3:alpha="0.12"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:state_selected="true" n4:color="?colorAccent" n4:alpha="0.04" n4:state_hovered="true"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:state_selected="true" n5:color="?colorAccent" n5:alpha="0.0"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:state_pressed="true" n6:color="#ff000000" n6:alpha="0.08"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:state_focused="true" n7:color="#ff000000" n7:alpha="0.16" n7:state_hovered="true"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:state_focused="true" n8:color="#ff000000" n8:alpha="0.12"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:color="#ff000000" n9:alpha="0.04" n9:state_hovered="true"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:color="#ff000000" n10:alpha="0.0"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/car_image1" n1:layout_width="75.0dip" n1:layout_height="75.0dip" n2:srcCompat="@mipmap/ic_launcher" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/car_image2" n1:layout_width="75.0dip" n1:layout_height="75.0dip" n1:layout_marginLeft="75.0dip" n1:layout_toRightOf="@id/car_image1" n1:layout_marginStart="75.0dip" n1:layout_toEndOf="@id/car_image1" n3:srcCompat="@mipmap/ic_launcher" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/car_image3" n1:layout_width="75.0dip" n1:layout_height="75.0dip" n1:layout_marginLeft="75.0dip" n1:layout_toRightOf="@id/car_image2" n1:layout_alignParentTop="true" n1:layout_marginStart="75.0dip" n1:layout_toEndOf="@id/car_image2" n4:srcCompat="@mipmap/ic_launcher" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:id="@id/car_name1" n1:layout_width="75.0dip" n1:layout_height="wrap_content" n1:layout_marginTop="80.0dip" />
+    <TextView n1:id="@id/car_name2" n1:layout_width="75.0dip" n1:layout_height="wrap_content" n1:text="" n1:layout_alignBaseline="@id/car_name1" n1:layout_alignLeft="@id/car_image2" n1:layout_alignBottom="@id/car_name1" n1:layout_alignStart="@id/car_image2" />
+    <TextView n1:id="@id/car_name3" n1:layout_width="75.0dip" n1:layout_height="wrap_content" n1:text="" n1:layout_alignBaseline="@id/car_name2" n1:layout_alignLeft="@id/car_image3" n1:layout_alignBottom="@id/car_name2" n1:layout_alignStart="@id/car_image3" />
+</RelativeLayout>

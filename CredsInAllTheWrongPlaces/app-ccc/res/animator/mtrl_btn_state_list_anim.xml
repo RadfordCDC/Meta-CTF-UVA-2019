@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_enabled="true" n1:state_pressed="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <set>
+            <objectAnimator n1:duration="@integer/mtrl_btn_anim_duration_ms" n1:valueTo="@dimen/mtrl_btn_pressed_z" n1:valueType="floatType" n1:propertyName="translationZ" />
+            <objectAnimator n1:duration="0" n1:valueTo="@dimen/mtrl_btn_elevation" n1:valueType="floatType" n1:propertyName="elevation" />
+        </set>
+    </item>
+    <item n2:state_enabled="true" n2:state_hovered="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <set>
+            <objectAnimator n2:duration="@integer/mtrl_btn_anim_duration_ms" n2:valueTo="@dimen/mtrl_btn_hovered_z" n2:valueType="floatType" n2:propertyName="translationZ" />
+            <objectAnimator n2:duration="0" n2:valueTo="@dimen/mtrl_btn_elevation" n2:valueType="floatType" n2:propertyName="elevation" />
+        </set>
+    </item>
+    <item n3:state_focused="true" n3:state_enabled="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <set>
+            <objectAnimator n3:duration="@integer/mtrl_btn_anim_duration_ms" n3:valueTo="@dimen/mtrl_btn_focused_z" n3:valueType="floatType" n3:propertyName="translationZ" />
+            <objectAnimator n3:duration="0" n3:valueTo="@dimen/mtrl_btn_elevation" n3:valueType="floatType" n3:propertyName="elevation" />
+        </set>
+    </item>
+    <item n4:state_enabled="true"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <set>
+            <objectAnimator n4:duration="@integer/mtrl_btn_anim_duration_ms" n4:valueTo="@dimen/mtrl_btn_z" n4:valueType="floatType" n4:propertyName="translationZ" n4:startDelay="@integer/mtrl_btn_anim_delay_ms" />
+            <objectAnimator n4:duration="0" n4:valueTo="@dimen/mtrl_btn_elevation" n4:valueType="floatType" n4:propertyName="elevation" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator n5:duration="0" n5:valueTo="@dimen/mtrl_btn_disabled_z" n5:valueType="floatType" n5:propertyName="translationZ"
+              xmlns:n5="http://schemas.android.com/apk/res/android" />
+            <objectAnimator n6:duration="0" n6:valueTo="@dimen/mtrl_btn_disabled_elevation" n6:valueType="floatType" n6:propertyName="elevation"
+              xmlns:n6="http://schemas.android.com/apk/res/android" />
+        </set>
+    </item>
+</selector>

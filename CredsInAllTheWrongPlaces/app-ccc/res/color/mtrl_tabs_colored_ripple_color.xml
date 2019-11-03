@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_pressed="true" n1:color="@android:color/white" n1:alpha="0.16"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_focused="true" n2:color="@android:color/white" n2:alpha="0.32" n2:state_hovered="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_focused="true" n3:color="@android:color/white" n3:alpha="0.24"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:color="@android:color/white" n4:alpha="0.08" n4:state_hovered="true"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:color="@android:color/white" n5:alpha="0.0"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</selector>
